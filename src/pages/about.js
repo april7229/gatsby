@@ -1,21 +1,16 @@
 import React from 'react'
 
-import Layout from "../components/layout"
-
-const AboutPage = () =>
-{
-    return(
-        
+const AboutPage = () => (
     <div>
-
-        <Layout />
-<h1>Welcome to my about page</h1>
-        <p>This is a sample site for the gatsby crash course
-                    
-</p>
-
+        <h1>About Us</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+            adipisci, voluptatum, nisi velit praesentium error quia explicabo voluptas
+            ad recusandae enim. Recusandae sequi non vel voluptas. Labore omnis
+            provident ex, perferendis esse, voluptate atque alias officiis dolor
+            eligendi itaque qui?
+    </p>
     </div>
-    )
+)
 
-}
-export default AboutPage; 
+export default AboutPage
